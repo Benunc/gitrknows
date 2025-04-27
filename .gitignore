@@ -1,0 +1,7 @@
+# Gitignore file
+
+# Ignore the fix script
+fix_footer.sh
+
+# Other common files to ignore
+.DS_Store 
