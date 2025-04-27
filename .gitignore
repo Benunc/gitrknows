@@ -5,3 +5,13 @@ fix_footer.sh
 
 # Other common files to ignore
 .DS_Store fix_images.sh
+
+# Ignore the Gravatar fix script
+fix_gravatar.sh
+
+# Ignore backup files created by the script
+*.bak
+*.tmp
+
+# Ignore README
+README.md
