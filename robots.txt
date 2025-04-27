@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /wp-login.php
+Disallow: /style.php
+Disallow: /cgi-bin
+User-agent: twiceler
+Disallow: /wp-login.php
+Disallow: /style.php
+# BEGIN XML-SITEMAP-PLUGIN
+Sitemap: http://www.gitrknowswow.com/sitemap.xml.gz
+# END XML-SITEMAP-PLUGIN
