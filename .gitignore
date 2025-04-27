@@ -12,6 +12,9 @@ fix_gravatar.sh
 # Ignore HTTP image fix script
 fix_http_images.sh
 
+# Ignore deprecated notice fix script
+fix_deprecated_notice.sh
+
 # Ignore backup files created by the script
 *.bak
 *.tmp
