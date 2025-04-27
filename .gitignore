@@ -4,4 +4,4 @@
 fix_footer.sh
 
 # Other common files to ignore
-.DS_Store 
+.DS_Store fix_images.sh

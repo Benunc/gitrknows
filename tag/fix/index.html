@@ -133,7 +133,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <article class="post-810 post type-post status-publish format-standard category-world-of-warcraft-posts category-wow-guides tag-fix tag-patch-23 tag-run-as-admin tag-windows-vista tag-wow tag-wtf entry" aria-label="Patch 2.3 Install Problems on Vista" itemscope itemtype="https://schema.org/CreativeWork"><header class="entry-header"><h2 class="entry-title" itemprop="headline"><a class="entry-title-link" rel="bookmark" href="https://gitrknowswow.com/2007/11/13/patch-23-install-problems-on-vista/">Patch 2.3 Install Problems on Vista</a></h2>
 <p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2007-11-13T17:41:45-05:00">November 13, 2007</time> By <span class="entry-author" itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="https://gitrknowswow.com/author/growl/" class="entry-author-link" rel="author" itemprop="url"><span class="entry-author-name" itemprop="name">Growl</span></a></span> <span class="entry-comments-link"><a href="https://gitrknowswow.com/2007/11/13/patch-23-install-problems-on-vista/#comments">18 Comments</a></span></p></header><div class="entry-content" itemprop="text">
 <p>Windows Vista is supposed to be a fair bit more secure than past versions of Windows.  Whether it is or not I&#8217;ll leave up to people that know more about OS security than I do. However, a number of WoW players are having trouble getting patch 2.3 to install on Windows Vista.  The problem?  Security!</p>
-<p><a href="https://gitrknowswow.com/images/macrohelp1/vistafix.jpg" rel="lightbox[810]"><img fetchpriority="high" decoding="async" src="https://gitrknowswow.com/images/macrohelp1/vistafix.jpg" class="left" alt="Vista help" height="407" width="288"></a>Here&#8217;s the deal&#8230;The patch downloads correctly but when downloader completes and fires off the installer &#8211; the install fails.  The problem &#8211; is one of permissions.</p>
+<p><a href="https://gitrknowswow.com/images/macrohelp1/vistafix.jpg" rel="lightbox[810]"><!-- Removed broken local image --></a>Here&#8217;s the deal&#8230;The patch downloads correctly but when downloader completes and fires off the installer &#8211; the install fails.  The problem &#8211; is one of permissions.</p>
 <p>Most Vista installs are setup in such a way that the average user you are logged in as is not an administrator of the machine.  If you&#8217;re not an administrator &#8211; you can&#8217;t install or patch software.</p>
 <p>The solution is simple.  Right click your World of Warcraft icon and select &#8220;Run as administrator&#8221;.  This will start WoW running with administrator permissions instead of your local users permissions.  The system will run through the patch process &#8211; but this time when the installer fires off, it&#8217;s running as an admin.  The game should patch correctly and you&#8217;ll be pWning in no time!</p>
 </div>
@@ -232,7 +232,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <div class="creds"><p>Copyright &#x000A9;&nbsp;2025</p></div>
 </div></footer>
 </div>
-<script type="text/javascript" src="http://s10.sitemeter.com/js/counter.js?site=s10gitrblog"></script>
+
 <noscript>
 <a href="http://s10.sitemeter.com/stats.asp?site=s10gitrblog" target="_top">
 <img src="http://s10.sitemeter.com/meter.asp?site=s10gitrblog" alt="Site Meter" border="0"></a>
@@ -250,7 +250,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
   })();</script>
 
 <script type="text/javascript">
-var pageTracker = _gat._getTracker("<?php echo $bm_analytics; ?>");
+var pageTracker = window._gat && _gat._getTracker("<?php echo $bm_analytics; ?>");
 pageTracker._initData();
 pageTracker._trackPageview();
 </script><script src="https://gitrknowswow.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
