@@ -15,6 +15,9 @@ fix_http_images.sh
 # Ignore deprecated notice fix script
 fix_deprecated_notice.sh
 
+# Ignore footer text replacement script
+fix_footer_text.sh
+
 # Ignore backup files created by the script
 *.bak
 *.tmp
